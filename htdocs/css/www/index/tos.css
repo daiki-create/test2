@@ -1,0 +1,25 @@
+
+h4 {
+    font-size: 1.1rem;
+}
+
+.tab-content {
+    padding: 1rem;
+}
+.tab-pane h4 {
+    font-weight: bold !important;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.tab-pane li {
+    margin-bottom: 1rem;
+}
+.tab-pane ul.small > li {
+    margin-bottom: .5rem;
+}
+.tab-pane ul {
+    list-style-type: none;
+}
+.tab-pane .card-body > div {
+    padding-left: 1.2rem;
+}

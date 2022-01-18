@@ -1,0 +1,262 @@
+
+.nps-fa {
+    color: #ff6f00;
+}
+.average-fa {
+    color: #1b5e20;
+}
+.alert .question-item {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.alert > .table th, .alert > .table td {
+    color: #424242;
+    font-size: .8rem;
+    padding-top: .2rem !important;
+    padding-bottom: .2rem !important;
+}
+.nps-chart {
+    position: relative;
+}
+.nps {
+    position: absolute;
+    width: 7rem;
+    height: 3.5rem;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.nps > span {
+    font-size: 1.5rem;
+}
+#report-graph ul.list-inline .badge {
+    /* color: #212121!important; */
+    color: #fff !important;
+    border: 1px solid #c6c6c6;
+}
+
+.tab-pane .dropdown-menu.show {
+    z-index: 1031;
+}
+
+.sub-question .carousel-item > pre {
+    min-height: 60px;
+    padding-bottom: 1.2rem !important;
+}
+.answer-date {
+    margin-top: -1.2rem;
+    padding: 0 .8rem;
+    font-size: .8rem;
+    border-radius: 4px 0 4px 0;
+}
+
+#nps-result > .alert {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.receipt-th {
+    width: calc(100%/4);
+    color: #fff;
+}
+
+.card-header {
+    font-size: 0.8rem !important;
+    /* white-space: nowrap; */
+}
+
+.card-header.page-title{
+    background-color: #ff9100;
+}
+
+.mypage-name {
+    border-right: solid 1px #fff;
+    line-height: 1.4em;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+
+.receipt-name {
+    border-right: solid 1px #333;
+    line-height: 1.4em;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+
+.mypage-nav li{
+    background-color: #ccc !important;
+    border-radius: 10px 10px 0 0;
+    width: 30%;
+}
+
+.mypage-nav .nav-item .active{
+    background-color: #fff !important;
+    color: #ff9100 !important;
+}
+.mypage-nav a {
+    color: #fff !important;
+}
+.mypage-card {
+    border-radius: 1em !important;
+}
+
+@media screen and (max-width:992px) {
+    .mypage-nav li{
+        font-size: 14px !important;
+        white-space: nowrap;
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .mypage-nav li{
+        font-size: 12px !important;
+    }
+    .mypage-card,
+    .mypage-nav{
+        width: 96%;
+        margin-left: 2%;
+    }
+    td {
+        white-space: normal !important;
+    }
+    th {
+        white-space: nowrap;
+    }
+}
+
+.comprehensive-top .row {
+    position: relative;
+    height: 6rem;
+    padding: 1rem;
+}
+
+.comprehensive-top-img {
+    position: absolute;
+    left: -0.5rem;
+    bottom: 0;
+    width: 35%;
+}
+
+.comprehensive-top-txt {
+    position: absolute;
+    left: 25%;
+    max-width: 74%;
+    padding-right: 1rem;
+}
+.comprehensive-bottom .row {
+    position: relative;
+    height: 6rem;
+    padding: 1rem;
+}
+
+.comprehensive-bottom-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+}
+
+.comprehensive-bottom-txt {
+    position: absolute;
+    max-width: 74%;
+    padding-left: 1rem;
+}
+
+.comprehensive-bottom-txt p:first-child,
+.comprehensive-top-txt p:first-child {
+    font-size: 0.75rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.comprehensive-top-txt p:last-child {
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.comprehensive-bottom-txt p:last-child{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+@media screen and (min-width:576px) {
+    .comprehensive-bottom-img ,
+    .comprehensive-top-img 
+    {
+        width: 27%;
+    }
+    .comprehensive-bottom-txt,
+    .comprehensive-top-txt
+    {
+        max-width: 82%;
+        padding-left: 0.5rem;
+    }
+    .comprehensive-bottom-txt p:first-child,
+    .comprehensive-top-txt p:first-child{
+        font-size: 0.7rem;
+    }
+    .comprehensive-bottom-txt p:last-child,
+    .comprehensive-top-txt p:last-child {
+        font-size: 1.3rem;
+    }
+    .comprehensive-bottom .row,
+    .comprehensive-top .row {
+        height: 5.5em;
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .comprehensive-bottom-txt p:first-child,
+    .comprehensive-top-txt p:first-child {
+        font-size: 0.75rem;
+    }
+    .comprehensive-bottom p:last-child,
+    .comprehensive-top p:last-child
+     {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .comprehensive-bottom-img,
+    .comprehensive-top-img {
+        width: 30%;
+    }
+    .comprehensive-bottom-txt,
+    .comprehensive-top-txt {
+        max-width: 80%;
+    }
+    .comprehensive-bottom-txt p:first-child,
+    .comprehensive-top-txt p:first-child {
+        font-size: 0.9rem;
+    }
+    .comprehensive-bottom p:last-child,
+    .comprehensive-top p:last-child {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .comprehensive-bottom-img,
+    .comprehensive-top-img {
+        width: 23%;
+    }
+    .comprehensive-bottom-txt p:first-child,
+    .comprehensive-top-txt p:first-child {
+        font-size: 1.1rem;
+    }
+    .comprehensive-bottom p:last-child,
+    .comprehensive-top p:last-child {
+        font-size: 1.8rem;
+    }
+    .comprehensive-bottom .row,
+    .comprehensive-top .row {
+        height: 6.5em;
+    }
+}

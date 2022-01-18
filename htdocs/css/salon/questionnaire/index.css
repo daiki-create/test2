@@ -1,0 +1,116 @@
+
+@media (max-width: 575.98px) {
+    .card-body {
+        padding: 1.25rem .5rem;
+    }
+}
+
+.stylist-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.hairlogy-salon-manager .stylist-name {
+    color: #4CAF50 !important;
+}
+.action-buttons a {
+    display: inline-block;
+}
+
+body > .print-area {
+    padding-top: 100px;
+}
+body > .print-area, body > .print-area .stylist-name {
+    font-size: 1.5rem;
+}
+body > .print-area .qr-code-img {
+    width: 200px;
+    height: 200px;
+}
+
+.qr-desc{
+    font-size: 16px;
+}
+
+.qr-desc p {
+    font-size: 14px;
+    margin-top: 0.5em;
+    color: #999 !important;
+}
+
+@media screen and (max-width:576px) {
+    .qr-desc{
+        font-size: 14px;
+    }
+    .qr-desc p {
+        font-size: 12px;
+    }
+}
+
+.questionnaire-title-parent {
+    align-items: center;
+}
+
+.page-title{
+    position: relative;
+    left: calc(100%*2/12);
+    margin-left: 0 !important;
+    transform: translateX(-2em);
+    padding: 0.6em 0 0.6em 3em !important;
+}
+
+.questionnaire-icon {
+    position: absolute;
+    background-color: yellow;
+    border: 3px solid #ff9100;
+    border-radius: 50%;
+    min-width: 70px;
+    min-height: 70px;
+    z-index: 999;
+}
+
+.questionnaire-icon img {
+    height: 56px;
+    padding-top: 7px;
+}
+
+.mypage-nav li{
+    background-color: #ccc !important;
+    border-radius: 10px 10px 0 0;
+    width: 40%;
+}
+
+.mypage-nav .nav-item .active{
+    background-color: #fff !important;
+    color: #ff9100 !important;
+}
+.mypage-nav a {
+    color: #fff !important;
+}
+.mypage-card {
+    border-radius: 1em !important;
+}
+
+@media screen and (max-width:992px) {
+    .mypage-nav li{
+        font-size: 14px !important;
+        white-space: nowrap;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .mypage-nav li{
+        font-size: 12px !important;
+    }
+    .mypage-card,
+    .mypage-nav{
+        width: 96%;
+        margin-left: 2%;
+    }
+    td {
+        white-space: normal !important;
+    }
+    th {
+        white-space: nowrap;
+    }
+}

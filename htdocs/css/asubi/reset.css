@@ -1,0 +1,63 @@
+/*　以下、うまく読み込まれないので_head.tplでGstaticからフォントをロード
+@font-face{
+    font-family: Lato-Regular,sans-serif;
+    src: url('/fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: Lato-Black,sans-serif;
+    src: url('/fonts/Lato-Black.ttf') format('truetype');
+}
+@font-face{
+    font-family: Lato-Bold,sans-serif;
+    src: url('/fonts/Lato-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family: NotoSansJP-Regular,sans-serif;
+    src: url('/fonts/NotoSansJP-Regular.otf') format('otf');
+}
+@font-face{
+    font-family: NotoSansJP-Bold,sans-serif;
+    src: url('/fonts/NotoSansJP-Bold.otf') format('otf');
+}
+@font-face{
+    font-family: NotoSansJP-Midium,sans-serif;
+    src: url('/fonts/NotoSansJP-Midium.otf') format('otf');
+}
+*/
+
+body{
+    max-width: 100%;
+    margin: 0px;
+    font-family:
+    /*英字のみgoogleフォントを使用*/
+    Lato,
+
+    /*iOS用ゴシック体 (safari) 1px小さいヒラギノ*/
+    -apple-system, 
+    /*iOS用ゴシック体　-apple-systemが適用されない場合*/
+    "ヒラギノ角ゴ",
+    /*androidはデフォルトでゴシック体（Xperiaを除く）のため必要なし*/
+
+    /*windows用ゴシック体。 デフォルトの太さだと細すぎるためMedium*/
+    "Yu Gothic Medium", "游ゴシック", 
+    /*mac用ゴシック体*/
+    YuGothic, "游ゴシック体",
+
+    /*上記どれも適用されない場合またはLinux用、とりあえず各デバイスで指定されているサンセリフ体、ゴシック体にしたい*/
+    sans-serif;
+}
+header{
+    background-color: #0C2368;
+    height: 110px;
+}
+footer{
+    text-align: center;
+    background-color: #E6E6E6;
+    height: 200px;
+}
+
+/*@media screen and (max-width: 1366px){*/
+    header{
+        height: calc(110px * 1366 / 1920);
+    }
+/*}*/

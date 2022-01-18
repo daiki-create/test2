@@ -1,0 +1,54 @@
+p {
+   word-wrap: break-word;
+}
+.hairlogy_header {
+    background-color: #212121;
+    margin: 0px;
+}
+.contents {
+    width: 75%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+#h1_title {
+    background-color: #ffb300;
+    color: white;
+    height: 260px;
+    text-align: center;
+    padding-top: 100px;
+}
+.sub_contents {
+    padding: 25px;
+    background-color: #fff8e1;
+}
+.h3_title {
+    padding-top: 25px;
+    color: #ff6d00;
+}
+.summary {
+    padding: 25px;
+    background-color: #fbe9e7;
+}
+hr.line {
+    height: 1px;
+    background-color: #ff6d00;
+    border: none;
+    color: #ff6d00;
+}
+.top_btn {
+    width: 100%;
+    position: relative;
+    margin: 100px auto 200px auto;
+}
+.top_btn > a:link, .top_btn > a:visited, .top_btn > a:hover, .top_btn > a:active {
+    padding: 2px 70px;
+    text-decoration: none;
+    border: 1px solid darkslategrey;
+    color: darkslategrey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    text-align: center;
+}

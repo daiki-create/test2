@@ -1,0 +1,72 @@
+
+@media (max-width: 575px) {
+#lp-note {
+    font-size: .8rem;
+}
+th.w110 {
+    width: 80px !important;
+}
+.period {
+    font-size: .6rem;
+}
+td.text-truncate.clickable {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: .8rem;
+}
+}
+
+tr.clickable > td.clickable {
+    cursor: pointer;
+}
+tr.clickable .text-muted {
+    opacity: 0.7;
+}
+
+.page-title{
+    margin-left: 0 !important;
+    padding: 0.6em 0 0.6em 3em !important;
+    background-color: #ff9100;
+}
+
+.mypage-nav li{
+    background-color: #ccc !important;
+    border-radius: 10px 10px 0 0;
+    width: 40%;
+}
+
+.mypage-nav .nav-item .active{
+    background-color: #fff !important;
+    color: #ff9100 !important;
+}
+.mypage-nav a {
+    color: #fff !important;
+}
+.mypage-card {
+    border-radius: 1em !important;
+}
+
+@media screen and (max-width:992px) {
+    .mypage-nav li{
+        font-size: 14px !important;
+        white-space: nowrap;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .mypage-nav li{
+        font-size: 12px !important;
+    }
+    .mypage-card,
+    .mypage-nav{
+        width: 96%;
+        margin-left: 2%;
+    }
+    td {
+        white-space: normal !important;
+    }
+    th {
+        white-space: nowrap;
+    }
+}

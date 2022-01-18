@@ -1,0 +1,27 @@
+
+.hairlogy-salon-manager .qr-codes .btn, .hairlogy-salon-manager .card-header.page-title,
+.hairlogy-salon-manager .modal-header {
+    background-color: #4caf50;
+}
+.qr-codes .btn, .card-header.page-title, .modal-header {
+    background-color: #f57c00;
+    color: #fff;
+}
+
+.hairlogy-salon-manager .questionnaire-url {
+    border-color: #4caf50 !important;
+}
+.questionnaire-url {
+    border-color: #f57c00 !important;
+}
+
+.fa-slash {
+    color: #b71c1c;
+}
+.fa-slash:first-child {
+    transform: rotate(20deg);
+}
+.fa-slash:last-child {
+    transform: rotate(85deg);
+}
+

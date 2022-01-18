@@ -1,0 +1,89 @@
+
+.hairlogy-salon-manager .card-header.page-title, .hairlogy-salon-manager .modal-header {
+    background-color: #80cbc4;
+}
+.card-header.page-title, .modal-header {
+    background-color: #ff9100;
+}
+
+.hairlogy-salon-manager .btn-hairlogy {
+    background-color: #4caf50;
+}
+.btn-hairlogy {
+    background-color: #ff5722;
+    color: #fff;
+}
+.btn-hairlogy:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+.hairlogy-salon-manager .alert-info {
+    background-color: #c8e6c9 !important;
+}
+.alert-info {
+    background-color: #ffe0b2 !important;
+}
+
+@media (max-width: 350px) {
+.card > .card-body > .input-group .input-group-text,
+.card > .card-body > .input-group .form-control {
+    font-size: .75rem;
+}
+}
+
+.mypage-name {
+    border-right: solid 1px #fff;
+    line-height: 1.4em;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+.mypage-nav li{
+    background-color: #ccc !important;
+    border-radius: 10px 10px 0 0;
+    width: 30%;
+}
+
+.mypage-nav .nav-item .active{
+    background-color: #fff !important;
+    color: #ff9100 !important;
+}
+.mypage-nav a {
+    color: #fff !important;
+}
+.mypage-card {
+    border-radius: 1em !important;
+}
+.modal-dialog {
+    width: 50% !important;
+    max-width: inherit;
+    margin: auto !important;
+}
+.modal-content {
+    border-radius: 10px !important;
+}
+
+@media screen and (max-width:992px) {
+    .mypage-nav li{
+        font-size: 14px !important;
+        white-space: nowrap;
+    }
+    .modal-dialog {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .mypage-nav li{
+        width: 33%;
+        font-size: 12px !important;
+    }
+    .mypage-card,
+    .mypage-nav{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .modal-dialog {
+        width: 90% !important;
+    }
+}

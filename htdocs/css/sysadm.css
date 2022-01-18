@@ -1,0 +1,57 @@
+
+#hairlogy-logo {
+    margin-bottom: 0;
+    text-shadow: rgb(179, 71, 32) 0px 0px 0px, rgb(191, 77, 35) 1px 1px 0px, rgb(204, 82, 37) 2px 2px 0px, rgb(217, 87, 39) 3px 3px 0px, rgb(230, 92, 41) 4px 4px 0px, rgb(242, 97, 44) 5px 5px 0px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    border-radius: 4%;
+    text-align: center;
+    background-color: rgb(255, 102, 46);
+}
+
+header .navbar-nav > li {
+    margin-right: .8rem;
+    background-color: #F1F3F5;
+}
+
+@media (max-width: 991px) {
+header .navbar-nav > li {
+    margin-right: .2rem;
+}
+}
+
+header .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+
+.btn-group-toggle > .btn:not(.active) {
+    opacity: 0.2;
+}
+.text-primary {
+    color: #FF6F00 !important;
+}
+.card-header {
+    color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #FF6F00;
+}
+
+@media (min-width: 576px) {
+#select-salon-modal #select-salon-body {
+    max-height: calc(100vh - 17rem);
+    overflow-y: auto;
+}
+}
+
+#select-salon-modal tr.active {
+    background-color: rgba(255, 143, 0, 0.3);
+}
+
+.fab {
+    vertical-align: middle;
+}

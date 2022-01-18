@@ -1,0 +1,9 @@
+#subscription-dev-bt{
+    color: #fafafa;
+}
+#subscription-dev-bt:hover{
+    color: black;
+}
+#subscription-dev{
+    display: none;
+}

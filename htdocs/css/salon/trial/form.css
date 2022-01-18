@@ -1,0 +1,25 @@
+
+.input-group-sm > .form-control {
+    flex: none;
+}
+#questionnaires > .btn.active {
+    color: #FF6F00 !important;
+    font-weight: bold;
+    background-color: #fff3e0;
+}
+#questionnaires > .btn:not(.active) > .fa-check-square {
+    display: none;
+}
+#questionnaires > .btn:not(.active) > .fa-square {
+    display: inline-block;
+}
+#questionnaires > .btn.active > .fa-check-square {
+    display: inline-block;
+}
+#questionnaires > .btn.active > .fa-square {
+    display: none;
+}
+.popover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    background-color: #fff3e0;
+}

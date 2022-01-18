@@ -1,0 +1,12 @@
+
+label.btn {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-size: .8rem;
+    font-weight: bold;
+}
+label.manager-flag:not(.active) {
+    opacity: 0.4;
+    color: #b7866a;
+    background-color: #d8c8a4 !important;
+}

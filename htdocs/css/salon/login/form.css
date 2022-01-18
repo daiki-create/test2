@@ -1,0 +1,33 @@
+main > .container {
+    padding-top: 0 !important;
+}
+
+#agreement-text {
+    padding-right: 2px;
+    height: calc(100vh - 33rem);
+    min-height: 50vh;
+    overflow-y: auto;
+    text-align: left;
+    font-size: .8rem;
+}
+#agreement-text .page-title {
+    font-size: .8rem;
+    padding: 1rem .5rem .5rem !important;
+    background-color: #ffb74d; 
+}
+#agreement-text h4 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#agreement-text h5 {
+    font-size: .8rem;
+}
+#agreement-text .card-header > .nav-tabs > .nav-item > a.nav-link {
+    padding: 0 .5rem !important;
+}
+#agreement-text .tab-pane .card-body {
+    padding: .5rem !important;
+}
+#agreement-text ol {
+    padding-inline-start: 1rem;
+}

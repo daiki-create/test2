@@ -1,0 +1,50 @@
+body {
+    font-family: "ヒラギノ角ゴ";
+    font-weight: 600;
+    color: #756d6b !important;
+    letter-spacing: 0.1em;
+}
+
+/* 
+.card-header.page-title {
+    background-color: #ef6c00;
+}
+
+.card > .card-header > .nav-tabs {
+    border-bottom: 0;
+}
+.card-header {
+    border: 0;
+}
+.card-header.border-bottom {
+    border-bottom: 1px solid #adadad !important;
+}
+.card-header > .nav-tabs > .nav-item > a.nav-link {
+    color: #fff;
+    background-color: inherit;
+    padding: 0 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    line-height: 1.1rem;
+}
+.card-header > .nav-tabs > .nav-item:not(:last-child) > a.nav-link {
+    border-right: 2px solid #fff;
+}
+.card-header > .nav-tabs > .nav-item > a.nav-link.active {
+    color: #fff;
+}
+.card-header > .nav-tabs > .nav-item > a.nav-link + div {
+    margin-top: .4rem;
+}
+.card-header > .nav-tabs > .nav-item > a.nav-link.active + div {
+    border-top: 3px solid #fff;
+}
+
+.text-contents {
+    padding: 1rem 0;
+}
+.text-contents p {
+    line-height: 2;
+}
+*/

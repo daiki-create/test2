@@ -1,0 +1,31 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input-group-text {
+    background-color: #ddd;
+}
+.select-type-menu {
+    min-width: 90px;
+}
+.select-type {
+    cursor: pointer;
+}
+#questionnaire-form tbody+tbody {
+    border-top: 0 !important;
+}
+#questionnaire-form input[type=number], #questionnaire-form input[type=text], #questionnaire-form textarea, #questionnaire-form .input-group-text, #questionnaire-form .custom-select {
+    font-size: .8rem;
+}
+
+tbody.remove {
+    opacity: .5;
+}
+.list-selection {
+    padding: 0 1rem;
+}
+.remove-selection-btn {
+    padding: .2rem .5rem !important;
+    line-height: 1 !important;
+}

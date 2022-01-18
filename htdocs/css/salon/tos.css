@@ -1,0 +1,34 @@
+
+.hairlogy-salon-manager .card-header.page-title {
+    background-color: #004d40;
+}
+.card-header.page-title {
+    background-color: #ff6d00;
+}
+
+.tab-pane h4 {
+    font-weight: bold !important;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.tab-pane li {
+    margin-bottom: 1rem;
+}
+.tab-pane ul.small > li {
+    margin-bottom: .5rem;
+}
+.card-header > .nav-tabs > .nav-item > a.nav-link {
+    padding: 0 1rem;
+}
+.tab-pane ul {
+    list-style-type: none;
+}
+.tab-pane .card-body > div {
+    padding-left: 1.2rem;
+}
+
+@media (max-width: 575.98px) {
+ol, ul {
+    padding-inline-start: 20px;
+}
+}

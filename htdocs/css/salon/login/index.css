@@ -1,0 +1,23 @@
+main > .container {
+    padding-top: 0 !important;
+}
+
+input[type=email], input[type=password] {
+    max-width: 360px;
+}
+button[type=submit] {
+    border-radius: 3px;
+    font-size: 1rem;
+    width: 60%;
+}
+
+#tos-collapse > div {
+    height: 85vh;
+    overflow-y: auto;
+}
+
+.border-orange {
+    border: 1px solid #f0751dc9;
+    color: #f0751dc9;
+}
+

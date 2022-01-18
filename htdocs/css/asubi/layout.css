@@ -1,0 +1,17 @@
+.short{
+    width: calc(100% * 1200 / 1920 );
+    margin: auto;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 730px){  
+    .short{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 440px){  
+    .short{
+        width: 90%;
+    }   
+}

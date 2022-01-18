@@ -1,0 +1,1522 @@
+
+
+/*ヘッダー*/
+
+.header-img{
+    float: left;
+    height: 100%;
+}
+.header-img img{
+    height: 50%;
+    margin:12% 0 0 12%;    object-fit: cover;
+    background-color: #0C2368;
+}
+.header-nav{
+    height: 100%;
+    width: 500px;
+    float: right;
+    margin-right: 8%;
+}
+.header-nav:has(#my-page-nav){
+    margin-right: 10%;
+}
+
+#nav{
+    height: 100%;
+}
+.header-nav ul{
+    height: 50px;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 0;
+    white-space: nowrap;
+    display: block;
+}
+.header-nav-list{
+    width: calc(100% / 4);
+    display: inline-block;
+    text-align: center;
+}
+.header-nav-list a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato-Regular';
+}
+.hamburger-menu{
+    display: none;
+}
+.name{
+    font-size: 12px !important;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*共通*/
+.title-60px{
+    font-size: calc(60px * 1366 /1920);
+    color: #0C2368;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /*font-family: Lato,sans-serif;*/
+}
+.title-30px{
+    font-size: calc(30px * 1366 /1920);
+    margin-bottom: 50px;    
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /*font-family: Lato,sans-serif;*/
+}
+.title-33px{
+    font-size: calc(33px * 1366 /1920);
+    /*font-family: Noto Sans JP,sans-serif;*/
+    letter-spacing: 2px;
+    font-weight: 500;
+    white-space: normal;
+}
+.title-28px{
+    font-size: calc(28px * 1366 /1920);
+    line-height: 27px;
+    color: #0C2368;
+    /*font-family: Noto Sans JP,sans-serif;*/
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.title-26px{
+    font-size: calc(26px * 1366 /1920);
+    /*font-family: Noto Sans JP,sans-serif;*/
+    font-weight: 500;
+}
+.title-24px{
+    font-size: calc(24px * 1366 /1920);
+    font-weight: 500;
+    /*font-family: Noto Sans JP,sans-serif;*/
+    letter-spacing: 2px;
+}
+.title-20px{
+    font-size: calc(20px * 1366 / 1920);
+    /*font-family: Noto Sans JP,sans-serif;*/
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.font-24px{
+    font-size: calc(24px * 1366 /1920);
+    /*font-family: Noto Sans JP,sans-serif;*/
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.font-20px{
+    font-size: calc(20px * 1366 /1920);
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+.font-18px{
+    font-size: calc(18px * 1366 /1920);
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.line-h-nomal{
+    line-height: normal;
+}
+.font-600{
+    font-weight: 600;
+}
+.color-navy{
+    color: #0C2368;
+}
+.textalign-center{
+    text-align: center;
+}
+.blue-back{
+    background-color: #DDEFF4;
+}
+.contents-title{
+    text-align: center;
+}
+.large-title{
+    width: 100%;
+    font-size: calc(24px * 1366 /1920);
+    padding: calc(24px * 1366 / 1920) 0 calc(24px * 1366 / 1920) 0;
+    color: #0C2368;
+    border-top: solid 2px #0C2368;
+    border-bottom: solid 2px #0C2368;
+    text-align: center;
+}
+.small-title{
+    font-size: calc(20px * 1366 /1920);
+    /*font-family: NotoSansJP-Bold;*/
+    color: #1860BD;
+}
+.date{
+    float: right;
+}
+.button img{
+    width: 30%;
+    margin:100px 0 0 35%;
+}
+.reentry-button img{
+    margin-top: 0;
+}
+.fixed-btn{
+    bottom: calc(50px * 1366 / 1920);
+    right: calc(50px * 1366 / 1920);
+    position: fixed;
+}
+.fixed-btn img{
+    border-radius: 50%;
+}
+.pdg-top-100px{
+    padding-top: 100px;
+}
+.pdg-btm-400px{
+    padding-bottom: 200px;
+}
+.height-400px{
+    height: 200px;
+}
+.wh-sp-nor{
+    white-space: normal;
+}
+.br-620{
+    display: none;
+}
+/*------------------------------*/
+.content-parent{
+    padding-top: calc(50px * 1366 / 1920);
+    padding-bottom: calc(400px * 1366 / 1920);
+}
+
+.contents p{
+    margin: 0 0 calc(30px * 1366 / 1920) 0;
+}
+.mgn-0{
+    margin: 0;
+}
+#mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: #000000;
+    opacity: 0.3;
+    display: none;
+    z-index: 999;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*TOPページ*/
+.sp-top-img{
+    display: none;
+}
+.top-img{
+    width: 100%;
+    position: relative;
+    margin-bottom: -10px;
+}
+.top-content{
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    width: 100%;
+}
+
+.top-content{
+    top: 250px;
+}
+
+.arch{
+    position: relative;
+    text-align: center;
+}
+.arch img{
+    width: 20%;
+}
+.under-arch{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+.logo img{
+    width: 5%;
+}
+.logo-text img{
+    width: 10%;
+}
+
+.salon-en{
+    font-size: 80%;
+    color: #0C2368;
+}
+.salon{
+    font-size: 90%;
+    border-top: 2px solid #0C2368;
+    border-bottom: 2px solid #0C2368;
+    color: #0C2368;
+    margin: 5px 0 5px 0;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.fee{
+    font-size: 100%;
+    color: #0C2368;
+    margin: 10px 0 10px 0;
+}
+.inquiry-btn img{
+    width: 15%;
+}
+.asubi{
+    font-size: smaller;
+}
+.top-under{
+    white-space: nowrap;
+}
+.whats-asubi-img{
+    width: 50%;
+    display: inline-block;
+}
+.whats-asubi-img img{
+    width: 90%;
+    margin-left: 5%;
+}
+.whats-asubi-content{
+    width: 50%;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
+/*-----------------------*/
+.person-list{
+    margin-top: 100px;
+}
+.person-title{
+    color: #0C2368;
+    text-align: center;
+    font-family: Noto Sans JP,sans-serif;
+    font-weight: 700;
+    margin-bottom: calc(20px * 1366 / 1920);
+}
+.person{
+    width: 30%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+.person img{
+    width: 100%;
+    object-fit: cover;
+}
+.company-name{
+    color: #0C2368;
+    text-align: center;
+    margin-top: calc(20px * 1366 / 1920);
+}
+.person-name{
+    color: #0C2368;
+    text-align: center;
+}
+.role{
+    text-align: center;
+    font-family: Noto Sans JP,sans-serif;
+    font-weight: 500;
+    margin-top: calc(10px * 1366 / 1920);
+    margin-bottom: calc(10px * 1366 / 1920);
+}
+.person-sentence{
+    white-space: normal;
+}
+/*----------------------------*/
+
+.index-contents{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.vision-img{
+    position: relative;
+    width: 100%;
+}
+.vision-parent{
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recommend-img1,
+.recommend-img2{
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 60px;
+}
+
+.recommend-img{
+    display: inline-block;
+    width: 30%;
+    height: calc(295px * 1366 / 1920);
+    border: solid #000000 1px;
+    margin-right: 60px;
+    vertical-align: top;
+    padding-top: 20px;
+    position: relative;
+}
+.mgn-0{
+    margin: 0;
+}
+.recommend-img img,
+.recommend-img-right img{
+    max-width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.recommend-text{
+    width: 100%;
+    color: #0C2368;
+    font-family: Noto Sans JP,sans-serif;
+    font-weight: 500;
+    position: absolute;
+    bottom: calc(20px * 1366 / 1920);
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: normal;
+}
+.flex-merit{
+    white-space: nowrap;
+}
+.sp-merit-contents{
+    display: none;
+}
+.merit-contents{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    height: 500px;
+}
+.merit{
+    height: 300px;
+    white-space: normal;
+}
+.merit-sub{
+    white-space: normal;
+}
+.merit-img{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 120px;
+}
+.merit-img img{
+    width: 90%;
+    padding: 5%;
+}
+/*-----------------------------*/
+.faqs{
+    white-space: nowrap;
+}
+.faq{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    vertical-align: top;
+}
+.faq img{
+    width: calc(50px * 1366 / 1920);
+    height: calc(50px * 1366 / 1920);
+    object-fit: cover;
+    border-radius: 50%;
+}
+.A{
+    font-size: calc(25px * 1366 / 1920);
+    font-family: Lato,sans-serif;
+    font-weight: 900;
+    color: #0C2368;
+}
+.dot-ver{
+    display: inline-block;
+    width: 1px;
+    height: 80%;
+    margin-top: 10%;
+    border-right: #0C2368 dotted 1px;
+}
+.dot-hor{
+    width: 100%;
+    border-top: #0C2368 dotted 1px;
+    margin: calc(20px * 1366 / 1920);
+}
+.question{
+    font-size: calc(26px *1366 / 1920);
+    color: #0C2368;
+    font-family: Noto Sans JP,sans-serif;
+    white-space: normal;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.answer{
+    white-space: normal;
+    width: calc(487px * 1366 / 1920);
+    color: #000000;
+}
+
+/*------------------------*/
+
+.guide-contents{
+    margin-top: calc(50px * 1366 / 1920);
+}
+/*--------------------------*/
+.bg-1{
+    background-image: url("/img/asubi/asubi-lp-design/bg/pattern-1-100.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.bg-2{
+    background-image: url("/img/asubi/asubi-lp-design/bg/pattern-2-100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg-3{
+    background-image: url("/img/asubi/asubi-lp-design/bg/pattern-3-100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*お問い合わせページ*/
+.inquiry-top{
+    text-align: center;
+    margin-bottom: calc(50px * 1366 / 1920);
+}
+.must{
+    display: inline-block;
+    color: #E6E6E6;
+    background-color: #0C2368;
+    font-size: calc(10px * 1366 / 1920);
+    padding: 1px 5px 1px 5px;
+}
+#post-icon{
+    margin-left: 10%;
+    font-size: larger;
+}
+.inquiry-form{
+    width: 100%;
+}
+.form-item{
+    margin-bottom: calc(20px * 1366 / 1920);
+}
+.label-name{
+    display: inline-block;
+    margin-left: calc(10px * 1366 / 1920);
+}
+.inquiry-input{
+    width: 75%;
+    float: right;
+    height: calc(30px * 1366 / 1920);
+}
+.inquiry-input2{
+    width: 25%;
+    height: 30px;
+    float: right;
+    margin-right: 50%;
+}
+.inquiry-textarea{
+    width: 75%;
+    float: right;
+}
+.mgn-btm{
+    margin-bottom: calc(20px * 1366 / 1920);
+}
+#company-error,
+#name-error,
+#post-error,
+#prefecture-error,
+#street-error,
+#bldg-error,
+#phone-error,
+#mail-error,
+#inquiry-error{
+    display: none;
+    color: red;
+    width: 100%;
+    margin-left: 40%;
+}
+.inq-btn{
+    width: calc(100% / 3);
+    padding: 0;
+    border: none;
+    margin-left: calc(100% / 3);
+    margin-top: 50px;
+    /*スマートフォンで子imgの下に謎の灰色の余白ができるのを防止*/
+    height: auto;
+}
+.inq-btn img{
+    width: 100%;
+    cursor: pointer;
+}
+.btn-inquiry-submit{
+    width: 20%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 50px;
+    color: #E6E6E6;
+    background-color: #0C2368;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.sp-br{
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*入会申し込みの流れページ*/
+.step{
+    margin-top: calc(50px * 1366 / 1920);
+    width: 100%;
+    white-space: nowrap;
+}
+.sp-step-title{
+    display: none;
+}
+.left-content{
+    display: inline-block;
+    width: 50%;
+    height: calc(300px * 1366 / 1920);
+}
+.left-content img{
+    margin-right: 2%;
+    width: 98%;
+    object-fit: cover;
+}
+.right-content{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    white-space: normal;
+    vertical-align: top;
+}
+.title-num{
+    background-color: #0C2368;
+    color: #E6E6E6;
+    padding: 1px 2px 1px 2px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*運営会社概要ページ*/
+.table-about-us{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'NotoSansJP-Regular';
+    border-collapse: collapse;
+    margin: calc(20px * 1366 / 1920) 0 calc(20px * 1366 / 1920) 0;
+}
+.table-title{
+    color: #0C2368;
+    text-align: center;
+}
+.table-content{
+    padding-left: calc(40px * 1366 / 1920);
+}
+.map{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: calc(20px * 1366 / 1920);
+}  
+/*特定商取引ページ*/
+.ls-none{
+    list-style: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*facebookで続行ページ*/
+.fb-btn{
+    background-color: #1860BD;
+    color: #ffffff;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0 0 20%;
+    border: none;
+    font-family:'NotoSansJP-Regular';
+    cursor: pointer;
+}
+.login_title{
+    height: 400px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*支払情報入力ページ
+    支払情報変更ページ*/
+
+.precaution{
+    width: 60%;
+    margin: 50px 0 0 20%;
+    font-family:'NotoSansJP-Regular';
+}
+
+/* payjp モーダル呼び出しボタン */
+.creditcard-box #payjp_checkout_box > input[type=button] {
+    background-color: #0C2368;
+    color: #ffffff;
+    width: 80%;
+    height: 60px;
+    font-size: 30px;
+    font-family:'NotoSansJP-Regular';
+    text-align: center;
+    margin: 50px 0 0 10%;
+    padding: 0;
+    background-image:none;
+    border: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*支払情報入力完了ページ*/
+.message{
+    margin-top: 100px;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*マイページ*/
+
+.header-nav-list2{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.header-nav-list2 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato-Regular';
+    vertical-align: top;
+}
+.name{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato-Regular';
+    vertical-align: top;
+}
+.header-nav-list2 img{
+    width: 15%;
+}
+#my-page-menu img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#my-page-menu .name{
+    padding: 20px 0 0 20px;
+}
+#icon-block{
+    position: relative;
+    cursor: pointer;
+}
+.my-menu{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 60px;
+    right: 5%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 2px 2px #E6E6E6;
+    padding: 5px;
+}
+.my-menu ul{
+    height: auto;
+    padding: 0;
+}
+.my-menu li{
+    list-style: none;
+    padding: 5px;
+}
+.my-menu a{
+    color: #000000;
+    text-decoration: none;
+}
+#sp-icon-block{
+    cursor: pointer;
+}
+.sp-my-menu{
+    display: none;
+}
+.my-page-content{
+    width: 80%;
+    margin: 50px 0 0 10%;
+}
+.my-page-item{
+    padding: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+    cursor: pointer;
+    font-size: 24px;
+}
+.icon-img{
+    width: 100%;
+}
+.icon-img img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+.mypage-msg{
+    background-color: rgba(230, 230, 230, 0.4);
+    border-radius: 10px;
+    box-shadow: lightgray 2px 2px;
+    text-align: center; 
+    color: #1860BD;
+    padding: 30px 30px 10px 30px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.check-ok{
+    margin: 20px auto;
+    background-color: #3584bb;
+    border-radius: 5px;
+    width: 10%;
+}
+.check-ok a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+.check-ok:hover{
+    opacity: 0.7;
+}
+.mypage-userinfo{
+    word-wrap: break-word;
+}
+#name-modal,
+#mail-modal{
+    display: none;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+    width: 80%;
+    height: 90px;
+    z-index: 9999;
+    text-align: center;
+}
+#name-modal p,
+#mail-modal p{
+    font-size: 24px;
+    align-items: center;
+    white-space: normal;
+    word-break: break-all;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*マイページ用お問い合わせページ*/
+.my-inquiry-form{
+    width: 80%;
+    margin-left: 10%;
+}
+.my-inquiry-form textarea{
+    width: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*退会確認ページ*/
+.btn-referer{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    margin-left: 18%;
+    margin-top: 30px;
+    color: #000000;
+    background-color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.btn-left{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    margin-left: 4%;
+    margin-top: 30px;
+    color: #E6E6E6;
+    background-color: #0C2368;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*フッター*/
+
+.footer-nav{
+    padding-left: 0px;
+    height:100px ;
+}
+.footer-nav ul{
+    width: 500px;
+    margin: auto;
+    white-space: nowrap;
+    padding-top: 42px;
+}
+.footer-nav-list{
+    width: calc(100% / 3);
+    display: inline-block;
+}
+.footer-nav-list a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-family: 'NotoSansJP-Regular';
+}
+.copyright{
+    height: 100;
+}
+.copyright p{
+    padding-top: 44px;
+    margin: 0px;
+    font-size: 12px;
+    color: #000000;
+}
+/*---------------------*/
+.footer-nav{
+    height:calc(100px * 1366 / 1920) ;
+}
+.footer-nav ul{
+    width: calc(500px * 1366 / 1920);
+    padding-top: calc(42px * 1366 / 1920);
+}
+.footer-nav-list a{
+    font-size: calc(17px * 1366 / 1920);
+}
+.copyright{
+    height: calc(100px * 1366 / 1920);
+}
+.copyright p{
+    padding-top: calc(44px * 1366 / 1920);
+    font-size: calc(12px * 1366 / 1920);
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*細かな調整*/
+
+@media screen and (min-width: 1550px){
+   .top-content{
+       top: 280px;
+   }
+}
+@media screen and (min-width: 1750px){
+    .top-content{
+        top: 300px;
+    }
+ }
+ @media screen and (min-width: 1850px){
+    .top-content{
+        top: 320px;
+    }
+ }
+    @media screen and (max-width: 1366px){
+    .top-content{
+        top: 240px;
+    }
+    .fee{
+        margin: 5px;
+    }
+    @media screen and (max-width: 1280px){
+        .top-content{
+            top: 230px;
+        }
+    }
+
+}
+ @media screen and (max-width: 1080px){
+        
+        .header-nav-list a{
+            font-size: 80%;
+        }
+        .button img{
+            width: 40%;
+            margin-left: 30%;
+        }
+        .top-content{
+            top: 180px;
+        }
+        .recommend-img{
+            height: 200px;
+        }
+        .recommend-text{
+            font-size: 15px;
+        }
+        .merit-sub{
+            font-size: calc(24px * 1366 / 1920);
+        }
+        .inquiry-input,
+        .inquiry-textarea{
+            width: 65%;
+        }
+        .inquiry-input2{
+            margin-right: 40%;
+        }
+        .fb-btn{
+            width: 80%;
+            margin-left: 10%;
+        }
+        .precaution{
+            width: 100%;
+            margin-left: 0;
+        }
+}
+@media screen and (max-width: 930px){
+        .salon{
+            margin: 0;
+        }
+        .fee{
+            margin: 0;
+        }
+        .button img{
+            width: 50%;
+            margin-left: 25%;
+        }
+        .inq-btn{
+            width: 50%;
+            margin-left: 25%;
+        }
+        .top-content{
+            top: 180px;
+        }
+        .under-arch{
+            top: 8%;
+        }
+        .person-list{
+            white-space: normal;
+        }
+        .person{
+            width: 45%;
+            margin: 50px 2% 0px 2%;
+        }
+        .interview{
+            display: block;
+            width: 100%;
+        }
+        .interview img{
+            width: 60%;
+            margin-left: 20%;
+        }
+        .recommend-img{
+            height: 180px;
+        }
+        .recommend-text{
+            font-size: 13px;
+        }
+        .line-h-nomal{
+            line-height: normal;
+            margin-top: 10px;
+        }
+        .merit-contents,
+        .merit-img{
+            display: none;
+        }
+        .sp-merit-contents{
+            display: block;
+            margin-top: 30px;
+        }
+        .merit-details{
+            white-space: normal;
+        }
+        .merit-detail{
+            margin-top: 30px;
+        }
+        .merit-item{
+            width: calc(100%/3);
+            text-align: center;
+            display: inline-block;
+        }
+        .sp-merit-img img{
+            object-fit: cover;
+            width: 100%;
+        }
+        .merit-title-img{
+            display: inline-block;
+            width: 15%;
+            margin-right: 10%;
+        }
+        .merit-title-img img{
+            width: 100%;
+        }
+        .merit-title{
+            display: inline-block;
+            width: 70%;
+            font-weight: 600;
+        }
+}
+@media screen and (max-width: 840px){
+        .top-content{
+            top: 170px;
+        }
+        .under-arch{
+            top: 7%;
+        }
+        .salon-en{
+            font-size: 60%;
+        }
+        .salon,
+        .fee{
+            font-size: 80%;
+        }
+        .recommend-img{
+            height: 170px;
+            margin-right: 30px;
+        }
+        .recommend-text{
+            font-size: 12px;
+        }
+        .mgn-0{
+            margin: 0;
+        }
+        
+}
+@media screen and (max-width: 730px){
+        .header-nav{
+            display: none;
+        }
+        .hamburger-menu{
+            display: block;
+        }
+        .menu-btn {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            height: 60px;
+            width: 60px;
+            display: flex;
+
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+
+            z-index: 90;
+            background-color: #3584bb;
+        }
+        .menu-btn span,
+        .menu-btn span:before,
+        .menu-btn span:after {
+            content: '';
+            display: block;
+            height: 3px;
+            width: 25px;
+            border-radius: 3px;
+            background-color: #ffffff;
+            position: absolute;
+        }
+        .menu-btn span:before {
+            bottom: 8px;
+        }
+        .menu-btn span:after {
+            top: 8px;
+        }
+        .menu-content {
+            width: 100%;
+            height: 120%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 80;
+            background-color: #3584bb;
+            display: none;
+        }
+        .menu-content ul {
+            padding: 70px 10px 0;
+        }
+        .menu-content ul li {
+            border-bottom: solid 1px #ffffff;
+            list-style: none;
+        }
+        .menu-content ul li a {
+            display: block;
+            width: 100%;
+            font-size: 15px;
+            box-sizing: border-box;
+            color:#ffffff;
+            text-decoration: none;
+            padding: 9px 15px 10px 0;
+            position: relative;
+        }
+        .menu-content ul li a::before {
+            content: "";
+            width: 7px;
+            height: 7px;
+            border-top: solid 2px #ffffff;
+            border-right: solid 2px #ffffff;
+            transform: rotate(45deg);
+            position: absolute;
+            right: 11px;
+            top: 16px;
+        }
+        .top-content{
+            top: 160px;
+        }
+        .under-arch{
+            top: 5%;
+        }
+        .salon-en{
+            font-size: 50%;
+        }
+        .salon,
+        .fee{
+            font-size: 70%;
+        }
+        .recommend-img{
+            height: 160px;
+        }
+        .input-modal{
+            width: 80%;
+            left: 10%;
+        }
+        #name-modal,
+        #mail-modal{
+            width: 90%;
+        }
+        
+}
+@media screen and (max-width: 670px){
+        .top-content{
+            top: 150px;
+        }
+}
+@media screen and (max-width: 620px){
+        .top-content{
+            top: 140px;
+        }
+        .salon-en{
+            font-size: 40%;
+        }
+        .salon,
+        .fee{
+            font-size: 60%;
+        }
+        .br-620{
+            display: block;
+        }
+}
+
+@media screen and (max-width: 560px){
+        .header-nav{
+            width: 200px;
+        }
+        .header-nav-list2 a{
+            font-size: 65%;
+        }
+        .header-nav-list a{
+            font-size: 70%;
+        }
+        .top-parent{
+            display: none;        
+        }
+        .company-name{
+            font-size: 10px;
+        }
+        .person-name{
+            font-size:15px ;
+        }
+        .sp-top-img{
+            display: block;
+            width: 100%;
+        }
+        .recommend-img{
+            height: 160px;
+            width: 32%;
+            margin-right: 2%;
+        }
+        .recommend-text{
+            font-size: 10px !important;
+        }
+        .mgn-0{
+            margin: 0;
+        }
+        .recommend-text{
+            font-size: 80%;
+        }
+        .inquiry-input,
+        .inquiry-textarea{
+            float: none;
+            width: 100%;
+        }
+        .inquiry-input2{
+            float: none;
+            width: 40%;
+        }
+        .sp-br{
+            display: block;
+        }
+        #post-icon{
+            margin-left: 0;
+        }
+        .form-item-streat{
+            height: auto;
+        }
+        .fb-btn{
+            font-size: 20px;
+        }
+        #company-error,
+        #name-error,
+        #post-error,
+        #prefecture-error,
+        #street-error,
+        #bldg-error,
+        #phone-error,
+        #mail-error,
+        #inquiry-error{
+            margin-left: 10%;
+        }
+        .btn-inquiry-submit{
+            width: 30%;
+            margin-left: 35%;
+            margin-top: 30px;
+            height: 35px;
+        }
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+/*SPレスポンシブデザイン*/
+ @media screen and (max-width: 440px){
+            
+            
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*共通*/
+            .title-60px{
+                font-size: 30px;
+            }
+            .title-33px{
+                font-size: 15px;
+                white-space: nowrap;
+            }
+            .button img{
+                width: 80%;
+                margin:30px 0 0 10%;
+            }
+            
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*TOPページ*/
+
+            
+            .top-under{
+                display: block;
+            }
+            .whats-asubi-img{
+                width: 100%;
+                display: block;
+            }
+            .whats-asubi-img img{
+                width: 90%;
+                margin-left: 5%;
+            }
+            .whats-asubi-content{
+                width: 100%;
+                display: block;
+                white-space: normal;
+            }
+           
+            .interview img{
+                width: 90%;
+                margin-left: 5%;
+            }
+            .company-name{
+                font-size: 10px;
+            }
+            .person-name{
+                font-size: 15px;
+            }
+            .role{
+                font-size: 10px;
+            }
+            .index-contents{
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .recommend-img1,
+            .recommend-img2{
+                margin-bottom: 10px;
+            }
+            .recommend-img{
+                width: 33%;
+                height: 160px;
+                margin-right: 0.5%;
+                padding-top: 10px;
+            }
+            .mgn-0{
+                margin: 0;
+            }
+            .recommend-img .font-24px{
+                font-size: 14px;
+            }
+            .recommend-text{
+                white-space: normal;
+                bottom: 10px;
+            }
+            .merit-sub{
+                white-space: normal;
+            }
+            
+            .faq{
+                width: 100%;
+                height: auto;
+                display: block;
+                margin-bottom: 30px;
+            }
+            .faq img{
+                width: 30px;
+                height: 30px;
+            }
+            .A{
+                font-size: 20px;
+            }
+            .dot-ver{
+                display: none;
+            }
+            .dot-hor{
+                display: none;
+            }
+            .question{
+                font-size: 15px;
+            }
+            .answer{
+                width: 10px;
+            }
+            .guide-contents{
+                margin-top: 30px;
+            }
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*お問い合わせページ*/
+            
+            .inquiry-input,
+            .inquiry-textarea{
+                max-width: 95%;
+            }
+            .inq-btn{
+                width: 80%;
+                margin: 30px 0 0 10%;
+            }
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*入会申し込みの流れページ*/
+            
+            .step-title{
+                display: none;
+            }
+            .sp-step-title{
+                display: block;
+                margin-bottom: 5px;
+                white-space: normal;
+            }
+            .left-content,
+            .right-content{
+                display: block;
+                width: 100%;
+                height: auto;
+                white-space: normal;
+            }
+            .left-content img{
+                margin-left: 5%;
+                width: 90%;
+            }
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*facebookで続行ページ*/
+            .precaution{
+                width: 100%;
+                margin-left: 0;
+            }
+            .fb-btn{
+                width: 100%;
+                margin-left: 0;
+                font-size: 20px;
+            }
+            .login_title{
+                height: 200px;
+            }
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*支払情報入力ページ
+                支払情報変更ページ*/
+            .input-btn{
+                width: 100%;
+                margin-left: 0;
+                font-size: 20px;
+            }
+            .input-modal{
+                width: 90%;
+                left: 5%;
+            }
+            .cfm-btn{
+                width: 80%;
+                font-size: 20px;
+            }
+            /* payjp モーダル呼び出しボタン */
+            .creditcard-box #payjp_checkout_box > input[type=button] {
+                font-size: 20px;
+            }
+            
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*マイページ*/
+            .icon-img img{
+                width: 40%;
+                margin-left: 30%;
+            }
+            .my-page-content{
+                width: 90%;
+                margin-left: 5%;
+            }
+        
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*マイページ用お問い合わせページ*/
+            .my-inquiry-form{
+                width: 90%;
+                margin-left: 5%;
+            }
+            
+            /*-----------------------------------------------------------------------------------------------------------*/
+            /*フッター*/
+
+            .footer-nav{
+                height:50px ;
+            }
+            .footer-nav ul{
+                padding-top: 30px;
+                padding-left: 0;
+            }
+            .footer-nav-list{
+                display: block;
+                width: 100%;
+                padding-bottom: 10px;
+            }
+            .footer-nav-list a{
+                font-size: 15px;
+                text-align: center;
+            }
+            .copyright p{
+                padding-top: 100px;
+                font-size: 10px;
+            }
+}
+

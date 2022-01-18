@@ -1,0 +1,17 @@
+.login_facebook {
+    width: 160px;
+    text-decoration: none;
+    color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 24px !important;
+    text-transform: none;
+    padding: .5rem 1.6rem;
+    height: 40px;
+    line-height: 2.5rem;
+}
+.login_title {
+    text-align:center;
+}
+

@@ -1,0 +1,594 @@
+@font-face{
+    font-family: "DINBold";
+    src: url('/fonts/DINBold.ttf') format('truetype');
+}
+@font-face{
+    font-family: "GOTHIC_0";
+    src: url('/fonts/GOTHIC_0.TTF') format('truetype');
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    font-weight: 600 !important;
+    color: #756d6b !important;
+    letter-spacing: 0.1em;
+    background-color: #fefbdc;
+    font-family: DINBold !important;
+}
+
+.gothic {
+    font-weight: 600;
+    font-family: GOTHIC_0 !important;
+}
+/* , "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif */
+
+.wrapper{
+    max-width: 992px;
+    margin: auto;
+    padding: 50px 0;
+}
+img,iframe{
+    max-width: 100%;
+    object-fit: cover;
+}
+.light{ background-color: #fff;}
+.dark{ position: relative; background-color: #fefbdc;}
+.color-orange{ color: #f0751dc9 !important;}
+.color-gray{ color: #2f2725 !important;}
+.color-light-black{
+    color: #756d6b !important;
+}
+.color-light-black2 {
+    color: #2f2725;
+}
+.back-light-black{
+    background-color: #756d6b !important;
+}
+.ws-nw{white-space: nowrap;}
+.marker {
+    background:linear-gradient(transparent 50%, #fae78f 50%);
+}
+.text-left{
+    text-align: left;
+}
+.text-center2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hide{
+    display: none;
+}
+
+h1{font-size: 53px;letter-spacing: 0.15em;}
+h2{font-size: 40px;letter-spacing: 0.15em;}
+h3{font-size: 38px;letter-spacing: 0.15em;}
+h4{font-size: 34px;letter-spacing: 0.15em;}
+h5{font-size: 30px;letter-spacing: 0.15em;}
+h6{font-size: 21px;letter-spacing: 0.15em;}
+.fs-35{font-size: 35px;}
+.fs-29{font-size: 29px; line-height: 1.7em;}
+.fs-27{font-size: 27px; line-height: 1.7em;}
+.fs-26{font-size: 26px; line-height: 1.7em;}
+.fs-25{font-size: 25px; line-height: 1.7em;}
+.fs-24{font-size: 24px; line-height: 1.7em;}
+.fs-22{font-size: 22px; line-height: 1.7em;}
+.fs-21{font-size: 21px;}
+.fs-20{font-size: 20px; line-height: 1.7em;}
+.fs-19{font-size: 19px; line-height: 1.7em;}
+.fs-18{font-size: 18px; line-height: 1.7em;}
+.fs-17{font-size: 17px; line-height: 1.7em;}
+.fs-16{font-size: 16px; line-height: 1.9em;}
+.fs-14{font-size: 14px;}
+.fs-13{font-size: 13px;}
+.fs-12{font-size: 12px;}
+.fs-11{font-size: 11px;}
+
+@media (max-width: 768px) {
+    h1{font-size: calc(53px*60/100); letter-spacing: 0.15em;}
+    h2{font-size: calc(40px*60/100); letter-spacing: 0.15em;}
+    h3{font-size: calc(38px*60/100); letter-spacing: 0.15em; line-height: 1.2em;}
+    h4{font-size: calc(34px*60/100); letter-spacing: 0.15em;}
+    h5{font-size: calc(30px*60/100); letter-spacing: 0.15em;}
+    h6{font-size: calc(21px*70/100); letter-spacing: 0.15em;}
+    .fs-35{font-size: calc(35px*60/100);}
+    .fs-29{font-size: calc(29px*60/100); line-height: 1.7em;}
+    .fs-27{font-size: calc(27px*60/100); line-height: 1.7em;}
+    .fs-26{font-size: calc(26px*60/100); line-height: 1.7em;}
+    .fs-25{font-size: calc(25px*60/100); line-height: 1.7em;}
+    .fs-24{font-size: calc(24px*70/100); line-height: 1.7em;}
+    .fs-22{font-size: calc(22px*70/100); line-height: 1.7em;}
+    .fs-21{font-size: calc(21px*70/100);}
+    .fs-20{font-size: calc(20px*70/100); line-height: 1.7em;}
+    .fs-19{font-size: calc(19px*70/100); line-height: 1.7em;}
+    .fs-18{font-size: calc(18px*70/100); line-height: 1.7em;}
+    .fs-17{font-size: calc(17px*70/100); line-height: 1.7em;}
+    .fs-16{font-size: calc(16px*70/100); line-height: 1.9em;}
+    .fs-14{font-size: calc(14px*70/100);}
+    .fs-13{font-size: calc(13px*70/100);}
+    .fs-12{font-size: calc(12px*70/100);}
+    .fs-11{font-size: calc(11px*70/100);}
+}
+.fw-100{font-weight: 100;}
+.fw-900{font-weight: 900;}
+.fw-600{font-weight: 600;}
+
+.lh-17{line-height: 1.7em;}
+
+.pt-20{padding-top: 20px;}
+.pt-30{padding-top: 30px;}
+.pt-50{padding-top: 50px;}
+.pt-100{padding-top: 100px;}
+.pt-200{padding-top: 200px;}
+.pb-20{padding-bottom: 20px;}
+.pb-30{padding-bottom: 30px;}
+.pb-50{padding-bottom: 50px;}
+.pb-100{padding-bottom: 100px;}
+.pb-200{padding-bottom: 200px;}
+
+.pl-30{padding-left: 30px;}
+.pl-50{padding-left: 50px;}
+
+.mt-10{margin-top: 10px;}
+.mt-30{margin-top: 30px;}
+.mt-50{margin-top: 50px;}
+.mt-100{margin-top: 100px;}
+.mb-30{margin-bottom: 30px;}
+.mb-50{margin-bottom: 50px;}
+.mb-100{margin-bottom: 100px;}
+
+.mr-10{margin-right: 5px;}
+.ml-10{margin-left: 5px;}
+
+.login_facebook {
+    display: block;
+    text-decoration: none;
+    color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 15px !important;
+    text-transform: none;
+}
+.login_line {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    width: 240px;
+    height: 40px;
+    background-color: #00C300;
+    background-image: url("/img/btn_login_base.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3px;
+}
+.login_line:hover {
+    background-color: #00E000;
+}
+.login_line:hover {
+    background-image: url("/img/btn_login_hover.png");
+}
+.login_line:active {
+    background-image: url("/img/btn_login_press.png");
+}
+
+.hairlogy-salon-manager > header > nav {
+    background-color: #004d40;
+}
+header > nav {
+    /* background-color: #ff6d00; */
+    background-color: #fff;
+    z-index: 1031 !important;  
+    height: 5em;
+}
+
+header > nav > .container {
+    padding: 0 !important;
+    margin: 0 !important;
+    min-width: 100%;
+}
+
+header .navbar-nav {
+    padding-right: 1em;
+}
+
+.header-left {
+    /* background-image: url("/img/salon/header-back.png");
+    background-repeat: no-repeat; */
+    /* width: 30%; */
+    position: relative;
+    align-items: center;
+    height: 5em !important;
+}
+
+.header-left .header-back {
+    height: 5em;
+    max-width: 200% !important;
+}
+
+@media screen and (max-width:1250px) {
+    .header-left .header-back {
+        position: relative;
+        left: -5em;
+    }
+    .navbar-brand {
+        right: 6em !important;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .header-left .header-back {
+        left: -6em;
+    }
+    .navbar-brand {
+        right: 8em !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header-left {
+        width: 16em;
+    }
+    .header-left .header-back {
+        left: -10em;
+    }
+    .navbar-brand {
+        right: 3em !important;
+    }
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    position: absolute;
+    right: 4em;
+    top: 0.5em;
+}
+
+@media screen and (max-width:991px) {
+    .navbar-brand {
+        right: 8em;
+    }
+}
+
+.navbar-brand img {
+    object-fit: contain;
+    height: 3em;
+}
+
+header > nav .nav-item {
+    padding: 0 !important;
+}
+
+header > nav .nav-item {
+    padding: 0 !important;
+}
+
+header > nav .nav-item:not(header > nav .nav-item:last-child) {
+    border-right: 1px solid #f0751d;
+}
+
+header > nav .nav-item:last-child{
+    padding-left: 2em !important;
+}
+header > nav .nav-item:last-child img {
+    cursor: pointer;
+}
+header >nav .nav-item .row {
+    align-items: center;
+}
+
+header >nav .nav-item .row .col-4 img{
+    padding-left: 1em !important;
+    min-width: 40px;
+    min-height: 40px;
+    object-fit: contain;
+}
+
+header >nav .nav-item .row .col-8 {
+    padding-left: 1.5em !important;
+    padding-right: 0 !important;
+    white-space: nowrap;
+}
+
+header > nav .nav-link {
+    color: #000 !important;
+}
+
+@media (max-width: 991.98px) {
+header > nav > div.container-fluid {
+    max-height: calc(100vh - 50px);
+    overflow-y: auto;
+    padding: 0 !important;
+}
+}
+
+/* @media (min-width: 992px) {
+.hairlogy-salon-manager > header .nav-item {
+    width: 210px;
+}
+}
+.hairlogy-salon-manager > header .nav-item-stylists {
+    background-color: #26a69a;
+}
+.hairlogy-salon-manager > header .nav-item-stylists.active,
+.hairlogy-salon-manager > header .nav-item-stylists:hover {
+    background-color: #7cb342;
+}
+.hairlogy-salon-manager > header .nav-item-report {
+    background-color: #8bc34a;
+}
+.hairlogy-salon-manager > header .nav-item-report.active,
+.hairlogy-salon-manager > header .nav-item-report:hover {
+    background-color: #4caf50;
+}
+.hairlogy-salon-manager > header .nav-item-qr {
+    background-color: #c0ca33;
+}
+.hairlogy-salon-manager > header .nav-item-qr.active,
+.hairlogy-salon-manager > header .nav-item-qr:hover {
+    background-color: #afb42b;
+}
+.hairlogy-salon-manager > header .nav-item-qr .dropdown-menu .dropdown-item:hover {
+    background-color: #c0ca33 !important;
+}
+.hairlogy-salon-manager > header .nav-item-mypage {
+    background-color: #80cbc4;
+}
+.hairlogy-salon-manager > header .nav-item-mypage.active,
+.hairlogy-salon-manager > header .nav-item-mypage:hover {
+    background-color: #00bcd4;
+} */
+
+
+/* header .nav-item {
+    background-color: #e53935;
+} */
+header .nav-item {
+    position: relative;
+}
+
+header .nav-item:not(header .nav-item:last-child).active::after,
+header .nav-item:not(header .nav-item:last-child):hover::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 4em;
+    right: 0;
+    border-bottom: #f0751d solid 5px;
+}
+@media screen and (max-width:992px) {
+    header .nav-item:not(header .nav-item:last-child).active::after,
+    header .nav-item:not(header .nav-item:last-child):hover::after {
+        border-bottom: none;
+    }
+}
+/* header .nav-item-qr {
+    background-color: #d84315;
+}
+header .nav-item-qr.active,
+header .nav-item-qr:hover {
+    background-color: #ff7043;
+}
+header .nav-item-mypage {
+    background-color: #ff9100;
+}
+header .nav-item-mypage.active,
+header .nav-item-mypage:hover {
+    background-color: #ffa726;
+} */
+
+header .navbar {
+    padding: 0 !important;
+    height: 5em;
+}
+
+header .navbar-nav {
+    align-items: center;
+    height: 4em !important;
+}
+
+header .navbar .navbar-nav > li > .nav-link {
+    padding-right: 1rem;
+    font-size: 0.6rem;
+}
+.hairlogy-salon-manager > footer {
+    background-color: hsl(170, 100%, 15%);
+}
+footer {
+    position: relative !important;
+}
+footer .d-flex{
+    background-color: #ff6d00;
+    padding: 1em;
+    color: #333;
+}
+@media (max-width: 420px) {
+footer {
+    font-size: .65rem;
+}
+}
+.hairlogy-salon-manager .btn-hairlogy {
+    background-color: #1E5D23;
+    color: #fff;
+}
+.btn-hairlogy {
+    background-color: #ff6d00;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px !important;
+}
+
+.btn-white {
+    background-color: #fff;
+    border: 1px solid #555;
+    border-radius: 10px;
+    font-size: 16px !important;
+}
+
+.btn-out-orange {
+    background-color: #fff;
+    border: 1px solid #ff6d00;
+    border-radius: 10px;
+    font-size: 14px !important;
+    color: #ff6d00;
+}
+.border-orange {
+    border-top: #ff6d00 solid 2px;
+    border-bottom: #ff6d00 solid 2px;
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .btn-hairlogy,
+    .btn-white,
+    .btn-out-orange {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 991px) {
+header .navbar-nav {
+    padding-right: 0;
+    background-color: #fff;
+}
+header > nav .nav-item:not(header > nav .nav-item:last-child) {
+    border-right: none;
+}
+header .nav-item {
+    background-color: #fff;
+    width: 100%;
+    padding-left: 30% !important;
+}
+header .nav-item.active::after,
+header .nav-item:hover::after {
+    border-bottom: none;
+}
+header .nav-item .nav-link {
+    padding: 1em 2em 1em 70% !important;
+}
+header > nav .nav-item:last-child{
+    min-height: 5em !important;
+    padding-left: 75% !important;
+    padding-right: 5% !important;
+}
+header > nav .nav-item:last-child img{
+    height: 3em;
+    padding-top: 1em;
+    object-fit: contain;
+}
+@media screen and (max-width:576px) {
+    header .nav-item .nav-link {
+        padding: 1em 2em 1em 60% !important;
+    }
+}
+header
+.navbar-toggler-icon {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 2em;
+    height: 2em;
+    background-color: #dfeaef;
+    text-align: right;
+}
+/* header .navbar-nav:first-child {
+    border: 1px solid #ddd;
+}
+header .navbar-nav > li {
+    margin-right: 0;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+}
+header .navbar-nav .nav-item .nav-link {
+    border-right: none;
+}
+header .navbar-nav > li:not(:first-child) {
+    border-top: 1px solid #ddd;
+} */
+/* header .navbar-nav > li > .nav-link.small {
+    padding-top: .6rem !important;
+    padding-bottom: .8rem !important;
+} */
+}
+
+#agreement-link {
+    font-size: .75rem;
+}
+@media (max-width: 420px) {
+#agreement-link {
+    font-size: .65rem;
+}
+}
+
+.hairlogy-salon-manager .dropdown-item:hover,
+.hairlogy-salon-manager .white-skin .navbar .navbar-nav .nav-item .dropdown-menu a:active,
+.hairlogy-salon-manager .white-skin .navbar .navbar-nav .nav-item .dropdown-menu a:focus,
+.hairlogy-salon-manager .white-skin .navbar .navbar-nav .nav-item .dropdown-menu a:hover:not(.salon) {
+    background-color: #7cb342 !important;
+}
+.dropdown-item:hover,
+.white-skin .navbar .navbar-nav .nav-item .dropdown-menu a:active, .white-skin .navbar .navbar-nav .nav-item .dropdown-menu a:focus, .white-skin .navbar .navbar-nav .nav-item .dropdown-menu a:hover:not(.salon) {
+    background-color: #ef6c00  !important;
+    color: #fff !important;
+}
+.card-header {
+    background-color: #fff;
+    /* border-top: #f0751dc9 solid 2px;
+    border-bottom: #f0751dc9 solid 2px; */
+    padding: 1em 0;
+}
+.card-header.page-title {
+    color: #fff;
+}
+.card-body {
+    color: #424242;
+}
+.text-primary {
+    color: #FF6F00 !important;
+}
+
+.hairlogy-salon-manager select:not(:read-only),
+.hairlogy-salon-manager textarea:not(:read-only),
+.hairlogy-salon-manager input[type=text]:not(:read-only),
+.hairlogy-salon-manager input[type=tel]:not(:read-only),
+.hairlogy-salon-manager input[type=number]:not(:read-only),
+.hairlogy-salon-manager input[type=email]:not(:read-only),
+.hairlogy-salon-manager input[type=url]:not(:read-only),
+.hairlogy-salon-manager input[type=password]:not(:read-only),
+.hairlogy-salon-manager input[type=date]:not(:read-only) {
+    background-color: #f4f9f9;
+    box-shadow: inset 0px 1px 5px rgba(38, 166, 154, 0.2);
+}
+
+.hairlogy-salon-manager .badge-hairlogy {
+    background-color: #00695c;
+}
+.badge-hairlogy {
+    background-color: #ef6c00;
+}
+.btn-success {
+    background-color: #4caf50 !important;
+}
+
+.collapse-btn > i {
+    color: #004d40;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #FF6F00;
+}
+.hairlogy-salon-manager .pagination .page-item.active .page-link {
+    background-color: #00695c;
+}
+

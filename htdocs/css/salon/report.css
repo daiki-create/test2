@@ -1,0 +1,47 @@
+
+.hairlogy-salon-manager .card-header.page-title, .hairlogy-salon-manager .modal-header {
+    background-color: #7cb342;
+}
+.card-header.page-title, .modal-header {
+    background-color: #d84315;
+}
+
+.hairlogy-salon-manager h5.page-title {
+    background-color: #004d40;
+}
+h5.page-title {
+    background-color: #3e2723;
+    color: #fff;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+}
+
+.hairlogy-salon-manager .card-header > .nav-tabs > .nav-item > a.nav-link {
+    color: #dcedc8;
+}
+.card-header > .nav-tabs > .nav-item > a.nav-link {
+    color: #ffab91;
+}
+
+.hairlogy-salon-manager h4 {
+    background-color: #9ccc65;
+}
+.hairlogy-salon-manager #term-label {
+    background-color: #8bc34a;
+}
+h4 {
+    color: #fff;
+    background-color: #e64a19;
+    padding: .5rem 1.25rem;
+}
+#term-label {
+    color: #fff;
+    padding: .3rem 1rem;
+    font-size: .8rem;
+    font-weight: bold;
+    background-color: #d84315;
+    /*
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+    */
+}

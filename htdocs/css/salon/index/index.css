@@ -1,0 +1,36 @@
+h6 {
+    line-height: 1.8;
+}
+.card {
+    padding: 3em !important;
+}
+@media screen and (max-width:768px) {
+    .card {
+        padding: 1em !important;
+    }
+}
+ol, ol ul {
+    padding-inline-start: 20px;
+}
+ol li {
+    line-height: 1.8;
+}
+ol ul li {
+    list-style: none !important;
+}
+ol li::before{
+    color: #f0751dc9;
+}
+ol > ul > li::before {
+    content: "▶";
+}
+ol > ul >ul li::before {
+    content: "・";
+    font-size: 30px;
+    line-height: 1.0;
+}
+@media (max-width: 575px) {
+ol, ol ul {
+    padding-inline-start: 10px;
+}
+}

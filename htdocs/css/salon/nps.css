@@ -1,0 +1,38 @@
+
+.nps_top {
+    align-items: flex-end;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-top: solid 2px #ff6d00;
+}
+tr {
+    border-bottom: solid 2px #ff6d00;
+}
+td {
+    padding: 1em 2em;
+    color: #ff6d00;
+    font-weight: 900 !important;
+}
+table a{
+    float: right;
+    font-weight: 900 !important;
+    color: #000;
+}
+table a::after{
+    content: "▶";
+    color: #ff6d00;
+}
+
+@media screen and (max-width:576px) {
+    table {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100%;
+    }
+    td {
+        padding: 1em 0.5em;
+    }
+}
