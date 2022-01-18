@@ -1,0 +1,4 @@
+# [Hairlogy] YouTube APIで動画リンク取得
+0 21 * * * . ${HOME}/.cron_profile; bash ${SRCPATH}/script/youtube_create_post.sh
+# [Asubi] オンラインサロン
+0 8 1 * * . ${HOME}/.cron_profile; bash ${SRCPATH}/script/asubi_subscription.sh
